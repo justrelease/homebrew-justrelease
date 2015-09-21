@@ -1,3 +1,4 @@
+require 'formula'
 class Justrelease < Formula
   desc "CLI tool to release github projects."
   homepage "https://github.com/justrelease"
