@@ -1,7 +1,7 @@
 class Justrelease < Formula
   homepage "https://github.com/justrelease"
-  url "https://github.com/justrelease/justrelease/releases/download/v1.0.2/justrelease-1.0.2.zip"
-  sha256 "6625e008d9710ab1581b13402deed0d1be1297a679424c54c1485f53fb562070"
+  url "https://github.com/justrelease/justrelease/releases/download/v1.1.4/justrelease-1.1.4.zip"
+  sha256 "ceb4efd4662d262ae919b7ae585cb0223ab260bb1dfd337561c8ee45366c09a5"
 
   depends_on :java
   def install
