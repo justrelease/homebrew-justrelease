@@ -5,7 +5,7 @@ class Justrelease < Formula
 
   depends_on :java
   def install
-       libexec.install "*.jar"
+       libexec.install Dir["*.jar"]
        (bin/"justrelease").write <<-EOS.undent
          #!/bin/sh
          JUSTRELEASE_HOME="#{libexec}"
