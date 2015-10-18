@@ -1,11 +1,11 @@
 class Justrelease < Formula
   homepage "https://github.com/justrelease"
-  url "https://github.com/justrelease/justrelease/releases/download/v1.1.4/justrelease-1.1.4.zip"
-  sha256 "ceb4efd4662d262ae919b7ae585cb0223ab260bb1dfd337561c8ee45366c09a5"
+  url "https://github.com/justrelease/justrelease/releases/download/v1.1.5/justrelease-core-1.1.5.zip"
+  sha256 "2addb86bf07b88a78a0fa932a86e9f1c6fe3c6b4120124699498896a91e299c3"
 
   depends_on :java
   def install
-       libexec.install "justrelease-#{version}.jar"
+       libexec.install "justrelease-core-#{version}.jar"
        (bin/"justrelease").write <<-EOS.undent
          #!/bin/sh
          JUSTRELEASE_HOME="#{libexec}"
